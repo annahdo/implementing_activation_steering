@@ -6,3 +6,4 @@ transformer_lens
 pytest
 matplotlib
 git+https://github.com/davidbau/baukit
+ipywidgets==7.7.1
