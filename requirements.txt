@@ -1,0 +1,8 @@
+torch
+transformers
+ipykernel
+jupyter
+transformer_lens
+pytest
+matplotlib
+git+https://github.com/davidbau/baukit
