@@ -16,6 +16,9 @@ pip install -r requirements.txt
 ## General approach to activation steering
 
 The idea is simple: we just add some vector [(for example the "Love" vector)](https://www.lesswrong.com/posts/5spBue2z2tw4JuDCx/steering-gpt-2-xl-by-adding-an-activation-vector) to the internal model activations and thus influence the model output in a similar (but sometimes more effective way) to prompting. 
+What happns internally is _shifting_ the activations into a different region kind of like in the picture below:
+
+<img src="https://github.com/user-attachments/assets/11042cec-3ca0-402b-982f-f7ec1d72e075" width="400">
 
 In general there are a few steps involved which I simplify in the following:
 
